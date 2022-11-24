@@ -1,20 +1,38 @@
 [
   {
     "type": "file",
-    "id": "file-block",
-    "title": "Example File Block",
-    "description": "A basic file block",
-    "entry": "blocks/example-file-block/index.tsx",
-    "matches": ["*"],
-    "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
+    "id": "openapi-redoc",
+    "title": "Redoc",
+    "description": "Render an OpenAPI file with Redoc",
+    "entry": "blocks/redoc/index.tsx",
+    "matches": ["*.json", "*.yaml", "*.yml"],
+    "example_path": "http://TODO"
   },
   {
-    "type": "folder",
-    "id": "folder-block",
-    "title": "Example Folder Block",
-    "description": "A basic folder block",
-    "entry": "blocks/example-folder-block.tsx",
-    "matches": ["*"],
-    "example_path": "https://github.com/githubocto/flat"
+    "type": "file",
+    "id": "openapi-swagger-ui",
+    "title": "Swagger UI",
+    "description": "Render an OpenAPI file with Swagger UI",
+    "entry": "blocks/swagger-ui/index.tsx",
+    "matches": ["*.json", "*.yaml", "*.yml"],
+    "example_path": "http://TODO"
+  },
+  {
+    "type": "file",
+    "id": "openapi-lincoln",
+    "title": "Lincoln",
+    "description": "Render an OpenAPI file with Lincoln",
+    "entry": "blocks/lincoln/index.tsx",
+    "matches": ["*.json", "*.yaml", "*.yml"],
+    "example_path": "http://TODO"
+  },
+  {
+    "type": "file",
+    "id": "openapi-stoplight-elements",
+    "title": "Elements",
+    "description": "Render an OpenAPI file with Stoplight Elements",
+    "entry": "blocks/elements/index.tsx",
+    "matches": ["*.json", "*.yaml", "*.yml"],
+    "example_path": "http://TODO"
   }
 ]
